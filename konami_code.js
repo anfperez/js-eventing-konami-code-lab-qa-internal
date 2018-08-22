@@ -11,6 +11,7 @@ function init() {
   const tracker = 0;
   body.addEventListener('keydown', (event) => {
     if (event.which === code[tracker]) {
+      console.log("Success");
       tracker++;
     } else {
       console.log("you've messed up :(");
