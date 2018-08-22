@@ -10,9 +10,12 @@ function init() {
   const body = document.querySelector('body');
   const tracker = 0;
   body.addEventListener('keydown', (event) => {
-    if (event.which === ) {
-      tracker += 
-    } 
+    if (event.which === code[tracker]) {
+      tracker++;
+    } else {
+      console.log("you've messed up :(");
+      tracker = 0;
+    }
   })
 }
 /*
