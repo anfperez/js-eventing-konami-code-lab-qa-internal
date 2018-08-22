@@ -19,6 +19,8 @@ function init() {
     }
   })
 }
+
+init();
 /*
 function init() {
   let index = 0;
