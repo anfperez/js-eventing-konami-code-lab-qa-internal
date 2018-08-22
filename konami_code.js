@@ -7,9 +7,10 @@ const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 function init() {
   //tracker keeps track of where we are in the array
   const body = document.querySelector('body');
+  const tracker = 0;
   body.addEventListener('keydown', (event) => {
     if (event.which === ) {
-      
+      tracker += 
     } 
   })
 }
